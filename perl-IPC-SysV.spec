@@ -1,5 +1,5 @@
 %define upstream_name    IPC-SysV
-%define upstream_version 2.01
+%define upstream_version 2.02
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
