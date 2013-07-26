@@ -1,15 +1,15 @@
 %define upstream_name    IPC-SysV
-%define upstream_version 2.03
+%define upstream_version 2.04
 
 Name:       perl-%{upstream_name}
-Version:    %perl_convert_version %{upstream_version}
-Release:	5
+Version:    %perl_convert_version 2.04
+Release:	1
 
 Summary:    System V shared memory, semaphores, messages
 License:    GPL+ or Artistic
 Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
-Source0:    http://www.cpan.org/modules/by-module/IPC/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:    http://www.cpan.org/modules/by-module/IPC/IPC-SysV-2.04.tar.gz
 
 BuildRequires: perl(Test::More)
 BuildRequires: perl-devel
@@ -77,3 +77,4 @@ rm -rf %buildroot
 
 * Sun Jul 12 2009 cpan2dist 2.01-1mdv
 - initial mdv release, generated with cpan2dist
+
