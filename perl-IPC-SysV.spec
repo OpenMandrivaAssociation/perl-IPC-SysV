@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version 2.04
-Release:	1
+Release:	2
 
 Summary:    System V shared memory, semaphores, messages
 License:    GPL+ or Artistic
